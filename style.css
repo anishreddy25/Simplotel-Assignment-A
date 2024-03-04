@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+@media (max-width:576px) {
+    h1 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #E55451;
+        padding: 1px;
+        height: fit-content;
+        font-weight: bold;
+    }
+
+    .menu-image {
+        height: 15px;
+        width: 15px;
+    }
+
+    .firstpage {
+        display: flex;
+        background-color: grey;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        height: 50vh;
+        font-family: Sans-Serif;
+    }
+
+    .image-1 {
+        height: 100%;
+        width: 50vw;
+    }
+
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .button-1 {
+        background-color: #E55451;
+        height: 25px;
+        width: 100px;
+        color: white;
+        border: none;
+        padding: 7px;
+    }
+
+    .image-2 {
+        height: 50%;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+
+    .image-3 {
+        height: 50%;
+        width: 100%;
+        margin-top: 3px;
+    }
+
+    .image-4 {
+        height: 110%;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .image-5 {
+        height: 20px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 25vw;
+    }
+
+    .imagescontainer {
+        display: flex;
+        justify-content: center;
+        height: 70%;
+        width: 40vw;
+        margin: 20px;
+    }
+
+    .secondpage {
+        display: flex;
+        align-items: center;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        background-size: cover;
+        padding: 10px;
+        font-family: Sans-Serif;
+        margin-top: 10px;
+        height: 40vh;
+    }
+
+    .doc2 {
+        background-color: #E55451;
+        margin: 10px;
+        padding: 10px;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .container {
+        background-color: #3f403f;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .clickarrow {
+        display: flex;
+        align-items: center;
+        width: 1px;
+        height: 0px;
+    }
+
+    .docheading {
+        font-size: 11px;
+    }
+
+    .para {
+        font-size: 5px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #E55451;
+        padding: 1px;
+        height: fit-content;
+        font-weight: bold;
+    }
+
+    .menu-image {
+        height: 15px;
+        width: 15px;
+    }
+
+    .firstpage {
+        display: flex;
+        background-color: grey;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        height: 40vh;
+        font-family: Sans-Serif;
+    }
+
+    .image-1 {
+        height: 100%;
+        width: 50vw;
+    }
+
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .button-1 {
+        background-color: #E55451;
+        height: 25px;
+        width: 100px;
+        color: white;
+        border: none;
+        padding: 7px;
+    }
+
+    .image-2 {
+        height: 50%;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+
+    .image-3 {
+        height: 50%;
+        width: 100%;
+        margin-top: 3px;
+    }
+
+    .image-4 {
+        height: 110%;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .image-5 {
+        height: 20px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 25vw;
+    }
+
+    .imagescontainer {
+        display: flex;
+        justify-content: center;
+        height: 70%;
+        width: 40vw;
+        margin: 20px;
+    }
+
+    .secondpage {
+        display: flex;
+        align-items: center;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        background-size: cover;
+        padding: 10px;
+        font-family: Sans-Serif;
+        margin-top: 10px;
+        height: 40vh;
+    }
+
+    .doc2 {
+        background-color: #E55451;
+        margin: 10px;
+        padding: 10px;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .container {
+        background-color: #3f403f;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .clickarrow {
+        display: flex;
+        align-items: center;
+        width: 1px;
+        height: 0px;
+    }
+
+    .docheading {
+        font-size: 30px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #E55451;
+        padding: 1px;
+        height: fit-content;
+        font-weight: bold;
+    }
+
+    .menu-image {
+        height: 20px;
+        width: 20px;
+    }
+
+    .firstpage {
+        display: flex;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        height: 50vh;
+        font-family: Sans-Serif;
+    }
+
+    .image-1 {
+        height: 100%;
+        width: 40vw;
+    }
+
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .button-1 {
+        background-color: #E55451;
+        height: 40px;
+        width: 120px;
+        color: white;
+        border: none;
+    }
+
+    .image-2 {
+        height: 50%;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+
+    .image-3 {
+        height: 50%;
+        width: 100%;
+        margin-top: 3px;
+
+    }
+
+    .image-4 {
+        height: 100%;
+        width: 100%;
+        margin-left: 12px;
+    }
+
+    .image-5 {
+        height: 20px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagescontainer {
+        display: flex;
+        justify-content: center;
+        height: 75%;
+        margin: 20px;
+        width: fit-content;
+
+    }
+
+    .secondpage {
+        display: flex;
+        align-items: center;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        background-size: cover;
+        padding: 20px;
+        font-family: Sans-Serif;
+        margin-top: 10px;
+        height: 50vh;
+    }
+
+    .doc2 {
+        background-color: #E55451;
+        margin: 30px;
+        padding: 15px;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .container {
+        background-color: #3f403f;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .clickarrow {
+        display: flex;
+        align-items: center;
+        width: 1px;
+        height: 0px;
+    }
+
+    .docheading {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #E55451;
+        padding: 1px;
+        height: fit-content;
+        font-weight: bold;
+    }
+
+    .menu-image {
+        height: 20px;
+        width: 20px;
+    }
+
+    .firstpage {
+        display: flex;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        height: 50vh;
+        font-family: Sans-Serif;
+    }
+
+    .image-1 {
+        height: 100%;
+        width: 40vw;
+    }
+
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .button-1 {
+        background-color: #E55451;
+        height: 40px;
+        width: 120px;
+        color: white;
+        border: none;
+    }
+
+    .image-2 {
+        height: 50%;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+
+    .image-3 {
+        height: 50%;
+        width: 100%;
+        margin-top: 3px;
+
+    }
+
+    .image-4 {
+        height: 100%;
+        width: 100%;
+        margin-left: 12px;
+    }
+
+    .image-5 {
+        height: 20px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagescontainer {
+        display: flex;
+        justify-content: center;
+        height: 75%;
+        margin: 20px;
+        width: fit-content;
+
+    }
+
+    .secondpage {
+        display: flex;
+        align-items: center;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        background-size: cover;
+        padding: 20px;
+        font-family: Sans-Serif;
+        margin-top: 10px;
+        height: 50vh;
+    }
+
+    .doc2 {
+        background-color: #E55451;
+        margin: 30px;
+        padding: 15px;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .container {
+        background-color: #3f403f;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .clickarrow {
+        display: flex;
+        align-items: center;
+        width: 1px;
+        height: 0px;
+    }
+
+    .docheading {
+        font-size: 52px;
+    }
+
+}
+
+
+@media (min-width:1200px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #E55451;
+        height: 8vh;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .menu-image {
+        height: 30px;
+        width: 30px;
+    }
+
+    .firstpage {
+        display: flex;
+        background-color: blue;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        height: fit-content;
+        font-family: Sans-Serif;
+    }
+
+    .image-1 {
+        height: 100%;
+        width: 45vw;
+    }
+
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .button-1 {
+        background-color: #E55451;
+        height: 50px;
+        width: 150px;
+        color: white;
+        border: none;
+        font-size: 20px;
+    }
+
+    .image-2 {
+        height: 50%;
+        width: fit-content;
+        margin-bottom: 5px;
+
+    }
+
+    .image-3 {
+        height: 50%;
+        width: fit-content;
+        margin-top: 5px;
+
+    }
+
+    .image-4 {
+        height: 103%;
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .image-5 {
+        height: 20px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagescontainer {
+        display: flex;
+        width: fit-content;
+        height: 80%;
+        margin: 80px;
+
+    }
+
+    .secondpage {
+        display: flex;
+        align-items: center;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        background-size: cover;
+        padding: 40px;
+        margin-top: 10px;
+        font-family: Sans-Serif;
+        height: 50vh;
+    }
+
+    .doc2 {
+        background-color: #E55451;
+        margin: 10px;
+        padding: 15px;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .container {
+        background-color: #3f403f;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .clickarrow {
+        display: flex;
+        align-items: center;
+        width: 1px;
+        height: 0px;
+    }
+
+    .docheading {
+        font-size: 62px;
+    }
+
+}
